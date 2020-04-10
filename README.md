@@ -5,6 +5,11 @@
 - Basic Unix Shell commands
 - Install and Configure Git using the Unix Shell
 - Github overview
+- Basic Git Commands (add,commit,push,clone)
+- Github overview
+- Markdown language for README files
+- Javascript ES6+ features
+- one thing I learned about this project is how to use terminal to put files you have and changed onto github
 
 <img src = "images/ironman.jpg" width="100px">
 
