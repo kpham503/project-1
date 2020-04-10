@@ -11,19 +11,14 @@
 
   //Req. 3-C
 
-  let arrMax = (arr) => {
-    //
-  };
-  //
-  let fruits = ["Apple", "Orange", "Plum"];
-  let result = "";
-  let maxSoFar = fruits[0].length;
 
-  ///iterate over array ay
-  fruits.forEach((elem) => {
-    if(elem.length > maxSoFar){
-      maxSoFar = elem.length;
-    }
-  });
-
-  console.log(maxSoFar);
+  function arrMax(arr) {
+      var arrMax = arr[0];
+      arr.forEach(x => {
+          if (x > arrMax) {
+              arrMax = x;
+          }
+      });
+      return arrMax;
+  }
+  
