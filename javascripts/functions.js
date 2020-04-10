@@ -21,4 +21,15 @@
       });
       return arrMax;
   }
-  
+
+//Req. 3-D
+
+let sumEvens = (arrays) => {
+  var sum = 0;
+    for(var x of arrays){
+        if(x%2==0){
+            sum=sum+x;
+        }
+    }
+    return sum;
+};
