@@ -1,3 +1,4 @@
+/*Runs only when page loads*/
 var target = 0;
 var numOfRolls = 0;
 var dice1 = Math.floor((Math.random() * 6) + 1);
